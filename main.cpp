@@ -32,11 +32,18 @@
 
     //l1*l2
     std:: vector <std::string> Merge;
+    if (!L1.empty() && !L2.empty()) {
     for (auto item1:L1){
         for(auto item2:L2){
             Merge.push_back(item1+item2);
         }
     }
+    }else if (L1.empty()) {
+        Merge = L2;
+    } else {
+        Merge = L1;
+    }
+
 
     std::cout<<"{";
 for (auto  item1 : L1) {
