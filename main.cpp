@@ -7,6 +7,7 @@
 
     std:: vector <std::string> L1;
     int n1;
+   std::cout<<"Input size of L2"<<std::endl;
     std::cin>>n1;
     for (int i = 0; i < n1; i++)
     {
@@ -18,9 +19,10 @@
     //l2
     std:: vector <std::string> L2;
     int n2;
+     std::cout<<"Input size of L2"<<std::endl;
     std::cin>>n2;
 
-    for (int i = 0; i < n1; i++)
+    for (int i = 0; i < n2; i++)
         {
         std::string str;
         std::cin>> str;
@@ -36,9 +38,26 @@
         }
     }
 
-    
- for (const std::string& chain : Merge) {
-        std::cout << chain << std::endl;
+    std::cout<<"{";
+for (auto  item1 : L1) {
+        std::cout << item1 <<", ";
     }
+     std::cout<<"}"<<std::endl;
+
+
+
+    std::cout<<"{";
+for (auto  item2 : L2) {
+        std::cout << item2 <<", ";
+    }
+     std::cout<<"}"<<std::endl;
+
+
+
+std::cout<<"{";
+ for (auto  item : Merge) {
+         std::cout << item <<", ";
+    }
+      std::cout<<"}";
     return 0;
  }
