@@ -9,7 +9,7 @@ L1L2={aadcv, aaqw, aaq, sddcv, sdqw, sdq, dddcdcv, dddcqw, dddcq}
 
 2) L1={λ}  
 L2={dcv, ef}  
-L1L2={{dcv, ef}  
+L1L2={dcv, ef}  
   
 3)  L1={λ}  
 L2={λ}  
