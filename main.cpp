@@ -9,7 +9,7 @@
     int n1;
    std::cout<<"Input size of L1"<<std::endl;
     std::cin>>n1;
-    if(n1>10){
+    if(n1>10000){
         std::cout<<"too many symbol"<<std::endl;
         exit(0);
     }
@@ -17,7 +17,7 @@
     {
         std::string str;
         std::cin>> str;
-        if(str.length()<=10){
+        if(str.length()<=100){
             L1.push_back(str);
         }else{
             std::cout<<"too many lenght of chain"<<std::endl;
@@ -31,7 +31,7 @@
     //l2
     std:: vector <std::string> L2;
     int n2;
-     if(n2>10){
+     if(n2>10000){
         std::cout<<"too many symbol"<<std::endl;
         exit(0);
     }
@@ -42,7 +42,7 @@
         {
         std::string str;
         std::cin>> str;
-       if(str.length()<=10){
+       if(str.length()<=100){
             L2.push_back(str);
         }else{
             std::cout<<"too many lenght of chain"<<std::endl;
